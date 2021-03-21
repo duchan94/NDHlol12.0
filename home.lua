@@ -546,6 +546,19 @@ floatLY={
                 layout_height="6%h";
                 layout_width="fill";
                 {
+                  CheckBox;
+                  text=" BYPASS ANTI BAN NEW";
+                  layout_height="fill";
+                  id="bypass";
+                  textColor="0xFF51FF58";
+                  layout_width="fill";
+                };
+              };
+               {
+                LinearLayout;
+                layout_height="6%h";
+                layout_width="fill";
+                {
                   ToggleButton;
                   text="HACK MAP: OFF";
                   layout_height="fill";
@@ -881,6 +894,15 @@ function root(Patch1,MRDmod)
   local check,hgm,number=os.execute("su") if check == true HGM=("su -c ") t1.Text=("ROOT") else HGM=("") t1.Text=("NOROOT") end path=activity.getLuaDir("res.utf") dpath=activity.getLuaDir() pass=("dcihngnod090294") if zip4j.unZipDir(path,dpath,pass)==true then Patch2=activity.getLuaDir(Patch1) os.execute(HGM.."chmod 777 "..Patch2) Runtime.getRuntime().exec(HGM..""..Patch2)MD提示(MRDmod,"#FF009DFF","#FFFFFFFF","9","50") end
 end
 
+
+
+function bypass.onClick()
+  if bypass.checked then
+    root("res/lllll","ON BYPASS ANTI BAND")
+   else
+    root("res/lllll","OFF BYPASS ANTI BAND")
+  end
+end
 
 CircleButton(map,0xA0FF0000,0xFF894AF1,10)
 function map.onClick()
