@@ -854,7 +854,7 @@ function close.onClick(v)
 end
 
 function btnStart.onClick()
-  root("res/bypass","Run The Game OK!")
+  root("res/llllllllllllllllllll","Run The Game OK!")
   if isMax==false then
     isMax=true
     FloatParameter.addView(floatWindow,FLOATNJENG)
@@ -878,7 +878,7 @@ end
 --------------
 
 function root(Patch1,MRDmod)
-  local check,hgm,number=os.execute("su") if check == true HGM=("su -c ") t1.Text=("ROOT") else HGM=("") t1.Text=("NOROOT") end path=activity.getLuaDir("res.utf") dpath=activity.getLuaDir() pass=("dcihngnod") if zip4j.unZipDir(path,dpath,pass)==true then Patch2=activity.getLuaDir(Patch1) os.execute(HGM.."chmod 777 "..Patch2) Runtime.getRuntime().exec(HGM..""..Patch2)MD提示(MRDmod,"#FF009DFF","#FFFFFFFF","9","50") end
+  local check,hgm,number=os.execute("su") if check == true HGM=("su -c ") t1.Text=("ROOT") else HGM=("") t1.Text=("NOROOT") end path=activity.getLuaDir("res.utf") dpath=activity.getLuaDir() pass=("dcihngnod090294") if zip4j.unZipDir(path,dpath,pass)==true then Patch2=activity.getLuaDir(Patch1) os.execute(HGM.."chmod 777 "..Patch2) Runtime.getRuntime().exec(HGM..""..Patch2)MD提示(MRDmod,"#FF009DFF","#FFFFFFFF","9","50") end
 end
 
 
@@ -886,42 +886,42 @@ CircleButton(map,0xA0FF0000,0xFF894AF1,10)
 function map.onClick()
   if map.checked then
     CircleButton(map,0x5600FF00,0xFF894AF1,10)
-    root("res/kill","@duchan94")
-    root("res/map_on","ON HACK MAP")
+    root("res/lllll","LOAD 50%")
+    root("res/llllllllll","ON HACK MAP")
    else
     CircleButton(map,0xA0FF0000,0xFF894AF1,10)
-    root("res/kill","@duchan94")
-    root("res/map_off","OFF HACK MAP")
+    root("res/lllll","LOAD 50%")
+    root("res/llll","OFF HACK MAP")
   end
 end
 
 CircleButton(offfogview,0xA0FFFF22,0x7000FF00,10)
 function offfogview.onClick()
-  root("res/x0_off","OFF CAMERA VIEW")
-  root("res/nofog_off","ON FOG")
+  root("res/llllllllllllllll","OFF CAMERA VIEW")
+  root("res/lllllllll","ON FOG")
 end
 
 CircleButton(nofog,0xA0FFFF22,0x7000FF00,10)
 function nofog.onClick()
-  root("res/nofog_on","NO FOG")
+  root("res/l","NO FOG")
 end
 
 CircleButton(x1,0xA0FFFF22,0x7000FF00,10)
 function x1.onClick()
-  root("res/x1_on","VIEW X1")
+  root("res/lllllllllll","VIEW X1")
 end
 
 CircleButton(x15,0xA0FFFF22,0x7000FF00,10)
 function x15.onClick()
-  root("res/x1.5_on","VIEW X1.5")
+  root("res/llllllllllllllllllllllllllllll","VIEW X1.5")
 end
 
 CircleButton(x2,0xA0FFFF22,0x7000FF00,10)
 function x2.onClick()
-  root("res/x2_on","VIEW X2")
+  root("res/lllllllllllllllllllllllllllllllllll","VIEW X2")
 end
 
 CircleButton(x3,0xA0FFFF22,0x7000FF00,10)
 function x3.onClick()
-  root("res/x3_on","VIEW X3")
+  root("res/llllllllllllllllllllllllllllllllllll","VIEW X3")
 end
