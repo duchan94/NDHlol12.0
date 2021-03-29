@@ -502,7 +502,7 @@ floatLY={
             layout_width="wrap";
             {
               TextView;
-              text="Hack Wild Rift 2.1.0.3851";
+              text="Hack Wild Rift 2.2.0.4026";
               layout_height="wrap";
               textColor="0xFFFFFF00";
               textSize="10sp";
