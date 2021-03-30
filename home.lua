@@ -867,7 +867,6 @@ function close.onClick(v)
 end
 
 function btnStart.onClick()
-  root("res/llllllllllllllllllll","Run The Game OK!")
   if isMax==false then
     isMax=true
     FloatParameter.addView(floatWindow,FLOATNJENG)
