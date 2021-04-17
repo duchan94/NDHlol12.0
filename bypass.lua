@@ -31,9 +31,6 @@ layout={
   };
 };
 
-activity.setTheme(R.AndLua1)
-activity.setTitle("NGUYỄN ĐỨC HÂN")
-activity.setContentView(loadlayout(layout))
 
 
 function MRD(Patch1,MRDmod)
