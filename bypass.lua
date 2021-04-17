@@ -6,7 +6,7 @@ import "android.view.*"
 import "layout"
 os.execute("su")
 
-layout= {
+layout={
   LinearLayout;
   layout_height="fill";
   layout_width="fill";
